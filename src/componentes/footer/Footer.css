@@ -1,0 +1,13 @@
+.icons {
+    color: var(--color-white);
+    font-size: 20px;
+    transform: perspective(1000px) rotateY(0deg) rotateX(0deg);
+    transition: all 0.2s ease;
+}
+
+.icons:hover {
+    transform: perspective(1000px) rotateY(180deg) rotateX(180deg);
+    background-color: var(--color-brillo);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3px);
+}
